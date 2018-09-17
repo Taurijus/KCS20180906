@@ -16,5 +16,20 @@ namespace Sandeliai
     {
       InitializeComponent();
     }
+
+    private void BTN_ADD_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void BTN_REMOVE_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
+    }
   }
 }

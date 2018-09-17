@@ -17,5 +17,10 @@ namespace Sandeliai
     {
       InitializeComponent();
     }
+
+    List<ISandelys> nuskaitytisandelius()
+    {
+      return;
+    }
   }
 }
