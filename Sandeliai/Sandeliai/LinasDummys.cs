@@ -30,5 +30,10 @@ namespace Sandeliai
     {
       throw new NotImplementedException();
     }
+
+    public static List<ISandelys> getDummies()
+    {
+
+    }
   }
 }
