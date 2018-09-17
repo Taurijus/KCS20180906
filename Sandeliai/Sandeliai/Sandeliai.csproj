@@ -83,6 +83,7 @@
     <Compile Include="Lentyna.Designer.cs">
       <DependentUpon>Lentyna.cs</DependentUpon>
     </Compile>
+    <Compile Include="LinasDummys.cs" />
     <Compile Include="mainScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +129,11 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\info.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
