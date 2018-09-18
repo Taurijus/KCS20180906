@@ -12,9 +12,15 @@ namespace Sandeliai
 {
   public partial class mainScreen : Form
   {
+    
     public mainScreen()
     {
       InitializeComponent();
+    }
+
+    List<ISandelys> nuskaitytisandelius()
+    {
+      return;
     }
   }
 }
